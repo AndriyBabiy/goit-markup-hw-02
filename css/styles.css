@@ -79,13 +79,16 @@ button {
   color: var(--ocean);
 }
 
+.top-bar-contact {
+  font-style: normal;
+}
+
 .contact-list {
   color: var(--slate);
 
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .contact-link:hover,
