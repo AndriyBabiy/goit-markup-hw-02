@@ -71,6 +71,10 @@ html {
 /* #endregion */
 
 /* #region top bar */
+.top-bar {
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .top-bar-nav {
   font-size: 16px;
   font-weight: 500;
@@ -184,8 +188,46 @@ html {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-/* #endfooter */
+/* #endregion */
 
 /* #region portfolio main */
+.portfolio-nav .list-button {
+  color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
 
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  background: var(--cloud);
+  border-radius: 4px;
+}
+
+.portfolio-nav .list-button:hover {
+  color: #fff;
+  background-color: var(--ocean);
+}
+
+.portfolio-item {
+  width: 360px;
+  height: 420px;
+
+  border: 1px solid var(--cornflower);
+}
+
+.portfolio-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.portfolio-classifier {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
 /* #endregion */
